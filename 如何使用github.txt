@@ -1,9 +1,14 @@
 新建資料夾後，執行
 git init
 
-使用touch index.html可以建立一個index.html檔案
+使用touch index.html可以在資料夾內建立一個index.html檔案
 
 git status 會出現Untracked files清單，再將這些檔案清單執行
 git add . ，會自動將未track的檔案都加入，執行完畢後會出現
 Changes to be committed
 
+透過以下指令提交一個新版本
+git commit -m "填寫版本資訊"
+
+查看新增的版本資訊，使用以下指令
+git log
