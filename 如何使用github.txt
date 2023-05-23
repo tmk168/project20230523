@@ -12,3 +12,9 @@ git commit -m "填寫版本資訊"
 
 查看新增的版本資訊，使用以下指令
 git log
+
+
+
+git remote add origin https://github.com/tmk168/project20230523.git
+git branch -M main
+git push -u origin main
